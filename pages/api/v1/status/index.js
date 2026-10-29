@@ -28,7 +28,6 @@ async function status(request, response) {
     updated_at: updatedAt,
     dependencies: {
       database: {
-        name: "Teste commit",
         version: databaseVersionValue,
         max_connections: parseInt(databaseMaxConnectionsValue),
         opened_connections: databaseOpenedConnectionsValue,
